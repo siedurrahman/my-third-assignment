@@ -20,9 +20,12 @@
        .font{
         font-family:'Lato',sans-serif;
        }
+       .box-shadow{
+        box-shadow: 0px 8px 60px 0px rgba(0, 0, 0, 0.05);
+       }
     </style>   
 </head>
-<body class="font bg-white">
+<body class="font bg-white max-w-7xl mx-auto">
     <header>
         <div class="flex items-center justify-around bg-[#F85559]  py-3 rounded-full my-10">
             <!-- menu div -->
@@ -49,10 +52,109 @@
         </div>
     </header>
     <main>
+      <!-- banner section start -->
+      <section>
+         
+      <div class="carousel w-full relative ">
+        <div id="slide1" class="carousel-item relative w-fit ">
+          
+          <img src="./images/banner1.png" class="w-fit" />
+           
+          <!-- banner content -->
+          <div class="absolute text-center left-0 right-0 mt-32 space-y-5 text-white">
+         <h1 class="text-5xl font-bold ">Exotic tastes at your <br> doorstep</h1>
+          <p>We supply highly quality organic products</p>
+          <button class="btn btn-error text-white ">Shop Now</button>
+       </div>
+       <!-- banner down image -->
+       <div class="absolute flex justify-center items-center bg-white gap-x-20 -bottom-10 left-24 right-24 px-10 py-12 box-shadow border-b-[2px]">
+        <img src="./images/fruit1.png" alt="">
+        <img src="./images/fruit2.png" alt="">
+        <img src="./images/fruit3.png" alt="">
+        <img src="./images/fruit4.png" alt="">
+        <img src="./images/fruit5.png" alt="">
+       </div>
+     
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>  
+         
+        
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./images/banner2.png" class="w-fit" />
+          <!-- banner content -->
+          <div class="absolute text-center left-0 right-0 mt-32 space-y-5 text-white">
+            <h1 class="text-5xl font-bold ">Exotic tastes at your <br> doorstep</h1>
+             <p>We supply highly quality organic products</p>
+             <button class="btn btn-error text-white ">Shop Now</button>
+          </div>
+          <!-- banner down image -->
+       <div class="absolute flex justify-center items-center bg-white gap-x-20 -bottom-10 left-24 right-24 px-10 py-12 box-shadow border-b-[2px]"> 
+        <img src="./images/fruit1.png" alt="">
+        <img src="./images/fruit2.png" alt="">
+        <img src="./images/fruit3.png" alt="">
+        <img src="./images/fruit4.png" alt="">
+        <img src="./images/fruit5.png" alt="">
+       </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="./images/banner3.png" class="w-full" />
+          <!-- banner content -->
+          <div class="absolute text-center left-0 right-0 mt-32 space-y-5 text-white">
+            <h1 class="text-5xl font-bold ">Exotic tastes at your <br> doorstep</h1>
+             <p>We supply highly quality organic products</p>
+             <button class="btn btn-error text-white ">Shop Now</button>
+          </div>
+          <!-- banner down image -->
+       <div class="absolute flex justify-center items-center bg-white gap-x-20 -bottom-10 left-24 right-24 px-10 py-12 box-shadow border-b-[2px]">
+        <img src="./images/fruit1.png" alt="">
+        <img src="./images/fruit2.png" alt="">
+        <img src="./images/fruit3.png" alt="">
+        <img src="./images/fruit4.png" alt="">
+        <img src="./images/fruit5.png" alt="">
+       </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="./images/banner4.png" class="w-fit" />
+          <!-- banner content -->
+          <div class="absolute text-center left-0 right-0 mt-32 space-y-5 text-white">
+            <h1 class="text-5xl font-bold ">Exotic tastes at your <br> doorstep</h1>
+             <p>We supply highly quality organic products</p>
+             <button class="btn btn-error text-white ">Shop Now</button>
+          </div>
+          <!-- banner down image -->
+       <div class="absolute flex justify-center items-center bg-white gap-x-20 -bottom-10 left-24 right-24 px-10 py-12 box-shadow border-b-[2px]">
+        <img src="./images/fruit1.png" alt="">
+        <img src="./images/fruit2.png" alt="">
+        <img src="./images/fruit3.png" alt="">
+        <img src="./images/fruit4.png" alt="">
+        <img src="./images/fruit5.png" alt="">
+       </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+      <!-- banner section end -->
+
+
         <!-- deal of the day section -->
         <!-- deal and coundown start -->
         <section>
-        <div class="flex text-black justify-around p-8">
+        <div class="text-black flex text-center justify-between  space-y-2 my-10 p-10">
         <div class="space-y-4">
             <h1 class="text-5xl font-bold">Deal of the day</h1>
             <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
@@ -92,10 +194,10 @@
 
         <!-- deal the day img and modal start -->
         <section>
-            <div class="grid grid-cols-4  gap-10 ">
+            <div class=" flex justify-evenly gap-10 ">
 
         <div>
-            <div class="text-black text-center space-y-2 shadow shadow-cyan-500/50 ">
+            <div class="text-black text-center space-y-2 box-shadow px-10 ">
                 <img class="mx-auto" src="./images/fruit6.png" alt="apple">
                 <h1 class="text-xl font-semibold  ">12.90$-18.85$</h1>
                 
@@ -155,7 +257,7 @@
             </div>
         </div>
         <div>
-            <div class="text-black text-center space-y-2  shadow shadow-cyan-500/50">
+            <div class="text-black text-center space-y-2  box-shadow px-10">
                 <img class="mx-auto" src="./images/fruit7.png" alt="apple">
                 <h1 class="text-xl font-semibold ">12.90$-18.85$</h1>
               
@@ -215,10 +317,9 @@
             </div>
         </div>
         <div>
-            <div class="text-black text-center space-y-2 ">
+            <div class="text-black text-center space-y-2 box-shadow px-10">
                 <img class="mx-auto" src="./images/fruit8.png" alt="Red Dragon">
                 <h1 class="text-xl font-semibold ">12.90$-18.85$</h1>
-                <hr>
                 <p>Red Dragon</p>
                 <!-- rating -->
                 <div class="rating  rating-half">
@@ -275,7 +376,7 @@
             </div>
         </div>
         <div>
-            <div class="text-black text-center space-y-2 ">
+            <div class="text-black text-center space-y-2 box-shadow px-10">
                 <img class="mx-auto" src="./images/fruit9.png" alt="Banana">
                 <h1 class="text-xl font-semibold ">12.90$-18.85$</h1>
                 
