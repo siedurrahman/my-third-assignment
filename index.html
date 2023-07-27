@@ -27,7 +27,7 @@
 </head>
 <body class="font bg-white max-w-7xl mx-auto">
     <header>
-        <div class="flex items-center justify-around bg-[#F85559]  py-3 rounded-full my-10">
+        <div class="flex items-center justify-around bg-[#F85559]  py-3 rounded-full my-5 ">
             <!-- menu div -->
             <div class="text-white">
             <ul>
@@ -222,12 +222,10 @@
                   
                   <!--modal er vitor part start  -->
 <label for="my_modal_6" class="btn btn-active btn-link  text-orange-500">Details</label>
-
-
 <input type="checkbox" id="my_modal_6" class="modal-toggle" />
 <div class="modal ">
   <div class="modal-box bg-white">
-    <img class="mx-auto" src="./images/fruit9.png" alt="">
+    <img class="mx-auto" src="./images/fruit6.png" alt="">
     <h3 class="font-bold text-lg">Apples</h3>
     <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
     <div class="rating  rating-half">
@@ -281,7 +279,35 @@
                   <!-- modal section -->
                   
                   <!--modal er vitor part start  -->
-<label for="my_modal_6" class="btn btn-active btn-link  text-orange-500">Details</label>
+
+
+<!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-active btn-link  text-orange-500" onclick="my_modal_5.showModal()">Details</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box bg-white">
+    <img class="mx-auto" src="./images/fruit7.png" alt="">
+    <h3 class="font-bold text-lg">Orange</h3>
+    <p class="py-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="rating  rating-half">
+        <input type="radio" name="rating-10" class="rating-hidden" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+        <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+      </div>
+    <div class="modal-action">
+      <button class="btn btn-outline btn-error">Close</button>
+      <button class="btn btn-error text-white">Buy Now</button>
+    </div>
+  </form>
+</dialog>
+<!-- <label for="my_modal_6" class="btn btn-active btn-link  text-orange-500">Details</label>
 
 
 <input type="checkbox" id="my_modal_6" class="modal-toggle" />
@@ -309,7 +335,7 @@
       <label for="my_modal_6" class="btn btn-error text-white">Buy Now</label>
     </div>
   </div>
-</div>
+</div> -->
   
                   <!--modal er vitor part end -->
 
@@ -503,13 +529,13 @@
         <!-- choose us section -->
         <section class="text-black text-center">
           <h1 class=" text-3xl font-semibold">Why Choose Us</h1>
-          <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           <!-- choose us team section start -->
           <div class="flex">
           <div class="">
-            <div>
-              <i class="fa-solid fa-people-group"></i>
-              <h1>Dedicated Team</h1>
+            <div class="">
+              <i class="fa-solid fa-people-group "></i><br>
+              <h1>Dedicated Team</h1> 
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <div>
@@ -552,7 +578,7 @@
         
         </div>
         </section>
-          <!-- choose us section -->
+          <!-- choose us section end-->
     </main>
     <footer class=" bg-[#121212] text-center py-14 space-y-5">
         <!-- footer fruit burst -->
